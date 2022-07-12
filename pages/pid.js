@@ -26,6 +26,8 @@ async function getData() {
     const data = JSON.parse(jsonData);
     return data;
 }
+
+
 export async function getStaticProps(context) {
 
     const { params } = context;
